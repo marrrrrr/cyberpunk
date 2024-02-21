@@ -6,8 +6,12 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import backgroundImage from './llaves.jpg';
 import logo from './logo.png';
+import quoteCue from './quote.png';
+import reversedCue from './reversed.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faNetworkWired, faBell } from '@fortawesome/free-solid-svg-icons';
+import customer1Pic from './customer1.jpeg';
+import customer2Pic from './customer2.jpeg';
 
 function App() {
  {/* --------------------------------------------- TYPEWRITTER EFFECT STEPS - ONLY WHEN SEEN ---------------------------------------------------------*/}
@@ -228,7 +232,7 @@ const featuresItems = [
   }
 ];
 
-  /* --------------------------------------------------------- NI IDEA --------------------------------------------------------------------------------*/
+  /* --------------------------------------------------------- TOGGLE --------------------------------------------------------------------------------*/
   const togglePopup = () => {
     setShowPopup(!showPopup);
   };
@@ -305,8 +309,8 @@ const featuresItems = [
     width: '100%',
     height: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.3)',
-    filter: 'brightness(-20%)',
-    filter: 'opacity(-20%)' 
+    filter: 'brightness(-30%)',
+    filter: 'opacity(-30%)' 
   }}></div>
 
   <div className="aboutus" style={{ zIndex: 1 }}>
@@ -320,6 +324,25 @@ const featuresItems = [
         as well as weaknesses that could be used by attackers at a later time.</p>
     </div>
   </div>
+  {/* Testimonials */}
+  <div className="testimonials">
+  <div className="testimonial">
+    <blockquote>
+      <p>ThreatSpike offers a strong value proposition that ties in to our business needs. Our experience with ThreatSpike is extremely positive. Like us, it is a dynamic, entrepreneurial organisation and quick to respond to our changing requirements.</p>
+      <footer>Lee Scott, Cybersecurity and Compliance Manager, Inchcape Shipping Services.</footer>
+    </blockquote>
+    <img src={quoteCue} alt="Quote" className="quote-image1" />
+    <img src={reversedCue} alt="Quote" className="reversed-image1" />
+  </div>
+  <div className="testimonial">
+    <blockquote>
+      <p>ThreatSpike analysts provide us with assurance that our network and customer data is constantly protected and that when a threat is detected, that it is dealt with quickly.</p>
+      <footer>Steve Ash, IT Director, Day Lewis Pharmacy</footer>
+    </blockquote>
+    <img src={quoteCue} alt="Quote" className="quote-image2" />
+    <img src={reversedCue} alt="Quote" className="reversed-image2" />
+  </div>
+</div>
 </section>
 
  {/* ----------------------------------------------------- HOW DOES IT WORK SECTION ------------------------------------------------------------------*/}
