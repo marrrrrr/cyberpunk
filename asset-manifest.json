@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cyberpunk/static/css/main.dfaae101.css",
+    "main.js": "/cyberpunk/static/js/main.f5674af0.js",
+    "static/js/592.7f72a991.chunk.js": "/cyberpunk/static/js/592.7f72a991.chunk.js",
+    "static/media/hacker.mp4": "/cyberpunk/static/media/hacker.d28831bc5d9eeb4a9a44.mp4",
+    "static/media/face.jpeg": "/cyberpunk/static/media/face.42b0110fca06424cd898.jpeg",
+    "static/media/customer1.jpeg": "/cyberpunk/static/media/customer1.bb54ae5b150f60d14087.jpeg",
+    "static/media/customer2.jpeg": "/cyberpunk/static/media/customer2.afada32c12b1d9aeeeae.jpeg",
+    "static/media/forensics.png": "/cyberpunk/static/media/forensics.6142413bba71711bb9d2.png",
+    "static/media/prevention.png": "/cyberpunk/static/media/prevention.9f4048c5c092c3cfcc6b.png",
+    "static/media/filtering.png": "/cyberpunk/static/media/filtering.900e1e7bd61f1b2fb95e.png",
+    "static/media/wireframe.png": "/cyberpunk/static/media/wireframe.8c5d9e5800ef6d25de77.png",
+    "static/media/inventory.png": "/cyberpunk/static/media/inventory.ffa3875e5725cab904a0.png",
+    "static/media/llaves.jpg": "/cyberpunk/static/media/llaves.1f66d0be9c7434d1fa65.jpg",
+    "static/media/firewall.png": "/cyberpunk/static/media/firewall.aee5aa5b4f8d5f54da67.png",
+    "static/media/logo.png": "/cyberpunk/static/media/logo.c3553515739017e5785f.png",
+    "static/media/reversed.png": "/cyberpunk/static/media/reversed.401db6c7dd14e04aa3ef.png",
+    "static/media/quote.png": "/cyberpunk/static/media/quote.fcb1f820d9ceeaa6fa01.png",
+    "index.html": "/cyberpunk/index.html",
+    "main.dfaae101.css.map": "/cyberpunk/static/css/main.dfaae101.css.map",
+    "main.f5674af0.js.map": "/cyberpunk/static/js/main.f5674af0.js.map",
+    "592.7f72a991.chunk.js.map": "/cyberpunk/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfaae101.css",
+    "static/js/main.f5674af0.js"
+  ]
+}
